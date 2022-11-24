@@ -1,0 +1,13 @@
+sno=53
+name='teddy'
+s1=int(input())
+s2=int(input())
+s3=int(input())
+group='aditya'
+if s1>35 and s2>35 and s3>35:
+    print('pass')
+else:
+    print('fail')
+print(sno)
+print(name)
+print(group)
