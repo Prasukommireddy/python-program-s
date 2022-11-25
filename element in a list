@@ -1,0 +1,7 @@
+list=[2,5,62,8,9,6,55,7]
+n=int(input())
+for i in list:
+  if i==n:
+        print('element is present')
+  else:
+        print('element is not present')
