@@ -1,0 +1,34 @@
+def checkLeapYear(year):
+    if year%400==0:
+            return True
+    elif year%4==0:
+            if year%100!=0:
+                    return True
+            else:
+                    return False;
+year = int(input("Enter the year: "))
+if (checkLeapYear(year)):
+    print("Leap Year")
+else:
+    print("Not a Leap Year")
+
+**********
+year= int(input())
+if year%4==0:
+    if year%100!=0:
+      print('leap year')
+elif year%400==0:
+    print('leap year')
+else:
+    print('not leap year')
+    
+    ************
+    def year(n):
+    if n%4==0 and n%100!=0:
+        print('leap year')
+    elif n%400==0:
+        print('leap year')
+    else:
+        print('not leap year')
+n=int(input())
+year(n)
