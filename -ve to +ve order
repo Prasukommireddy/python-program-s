@@ -1,0 +1,6 @@
+def move(arr):
+    arr.sort()
+arr =list(map(int,input().split()))
+move(arr)
+for e in arr:
+	print(e , end = " ")
